@@ -12,3 +12,5 @@ function UserLayout() {
         </div>
     );
 }
+
+export default UserLayout;
