@@ -1,0 +1,82 @@
+.expertise-section {
+    padding: 6rem 4rem;
+    background-color: #fff;
+    text-align: center;
+  
+    .heading {
+      margin-bottom: 2rem;
+  
+      p {
+        color: #7c7c7c;
+        margin: 0;
+      }
+  
+      h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        color: #222;
+      }
+    }
+  
+    .expertise-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+  
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.5rem;
+        flex: 1;
+  
+        .service-card {
+          background-color: #eaf6fb;
+          padding: 1.5rem;
+          border-radius: 12px;
+          text-align: left;
+          transition: transform 0.3s;
+  
+          &:hover {
+            transform: translateY(-5px);
+          }
+  
+          .icon {
+            color: #009fe3;
+            font-size: 1.8rem;
+            margin-bottom: 0.75rem;
+          }
+  
+          h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+          }
+  
+          p {
+            color: #555;
+            font-size: 0.95rem;
+          }
+        }
+      }
+  
+      .image-section {
+        flex: 1;
+        min-width: 300px;
+  
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  .blue-dot {
+    color: #009fe3; // or any shade of blue you prefer
+    margin-right: 5px;
+    font-weight: bold;
+  }
+    

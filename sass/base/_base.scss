@@ -1,0 +1,9 @@
+body, html {
+    overflow-x: hidden;
+  }
+  @font-face {
+    font-family: 'Aloevera';
+    src: url('../assets/fonts/aloevera-medium.ttf') format('truetype'); // if in public/
+    font-weight: 500; // Or use 'normal' if unsure
+    font-style: normal;
+  }

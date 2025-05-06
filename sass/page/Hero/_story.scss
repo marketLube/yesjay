@@ -1,0 +1,70 @@
+.our-story-section {
+    padding: 4rem 2rem;
+    background-color: white;
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .story-header {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: center;
+      
+      .story-tag {
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        color: #555;
+        
+        .blue-dot {
+          color: #009fe3;
+          font-size: 1.5rem;
+          margin-right: 0.5rem;
+          line-height: 1;
+        }
+      }
+    }
+    
+    .story-content {
+      .story-description {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #222;
+        max-width: 950px;
+        margin: 0 auto 2rem;
+        line-height: 1.6;
+      }
+      
+      .story-action {
+        .know-more-btn {
+          padding: 0.6rem 2rem;
+          font-size: 1rem;
+          color: #009fe3;
+          background-color: transparent;
+          border: 1px solid #009fe3;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          
+          &:hover {
+            background-color: #009fe3;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .our-story-section {
+      padding: 3rem 1rem;
+      
+      .story-content {
+        .story-description {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }

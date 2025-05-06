@@ -1,0 +1,73 @@
+
+        
+        .why-choose-us {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 3rem 2rem;
+            background-color: #fff;
+            font-family: 'Helvetica Neue', sans-serif;
+            gap: 5rem; 
+          
+            .left-section {
+              flex: 1;
+          
+              .subtitle {
+                font-size: 0.9rem;
+                margin-bottom: 0.5rem;
+                display: flex;
+                align-items: center;
+                gap: 0.3rem;
+          
+                .dot {
+                    color: #007bff;
+                }
+          
+                .text {
+                  color: #000; 
+                }
+              }
+          
+              .title {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #000;
+              }
+            }
+          
+            .right-section {
+              flex: 2;
+              display: flex;
+              flex-direction: column;
+              gap: 2rem;
+          
+              .stat {
+                .value {
+                  color: #0d8ddb;
+                  font-size: 2rem;
+                  font-weight: bold;
+                }
+          
+                .description {
+                  color: #666;
+                  font-size: 0.95rem;
+                  margin-top: 0.2rem;
+                }
+              }
+          
+              .top-stat {
+                border-bottom: 1px solid #eee;
+                padding-bottom: 1rem;
+              }
+          
+              .stat-row {
+                display: flex;
+                gap: 4rem;
+          
+                .stat {
+                  flex: 1;
+                }
+              }
+            }
+          }
+          

@@ -1,0 +1,102 @@
+
+  
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers horizontally */
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgba(10, 49, 67, 0.9), rgba(10, 49, 67, 0.3)),
+                url('cc6fb4256c96286c05e26954de9c986ef367871d.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .hero-right {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    width: 100%;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: aligns text to center */
+    text-align: center;  /* Optional: centers text lines */
+    gap: 1.5rem;
+    max-width: 800px;
+  }
+  
+  
+  
+  .hero-overlay {
+    max-width: 800px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .hero-subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Aloevera', sans-serif;
+    margin-bottom: 0.2rem;
+
+  }
+  
+  .hero-title {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 0; /* No extra space from above */
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Aloevera', sans-serif;
+  }
+  
+  .hero-highlight {
+    color: #fcd036;
+  }
+  
+  .hero-description {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 600px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-button-wrapper {
+    margin-top: 1rem;
+  }
+  
+  .hero-button {
+    border: 1px solid #fcd036;
+    background-color: transparent;
+    color: #fcd036;
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .hero-button:hover {
+    background-color: rgba(252, 208, 54, 0.1);
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
